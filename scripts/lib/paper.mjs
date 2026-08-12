@@ -110,7 +110,9 @@ export function compassRose(x, y, scale, color, opacity = 0.9) {
 
 // Penaksir lebar teks. Kasar, tapi cukup: SVG tidak bisa mengukur teks sendiri,
 // sedangkan tata letaknya butuh tahu di mana sebuah judul berakhir.
-const RATIO = { serif: 0.5, serifBold: 0.6, mono: 0.6 };
+// serifBold dipakai untuk judul huruf kapital, yang jauh lebih lebar daripada
+// campuran huruf besar-kecil — angkanya sengaja dilebihkan.
+const RATIO = { serif: 0.5, serifBold: 0.7, mono: 0.6 };
 
 export function textWidth(text, fontSize, letterSpacing = 0, face = "serif") {
   return text.length * (fontSize * RATIO[face] + letterSpacing);

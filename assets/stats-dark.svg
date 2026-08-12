@@ -39,12 +39,12 @@
 
   <rect x="62" y="96" width="1076" height="14" rx="7" fill="#E6D4A8" fill-opacity="0.12"/>
   <g clip-path="url(#barClip)">
-    <rect x="62.00" y="96" width="466.02" height="14" fill="#4F5D95" opacity="0.85"/>
-    <rect x="528.02" y="96" width="206.95" height="14" fill="#3178C6" opacity="0.85"/>
-    <rect x="734.97" y="96" width="147.99" height="14" fill="#F1E05A" opacity="0.85"/>
-    <rect x="882.96" y="96" width="119.92" height="14" fill="#3572A5" opacity="0.85"/>
-    <rect x="1002.88" y="96" width="75.43" height="14" fill="#663399" opacity="0.85"/>
-    <rect x="1078.31" y="96" width="59.69" height="14" fill="#E34C26" opacity="0.85"/>
+    <rect x="62.00" y="96" width="465.05" height="14" fill="#4F5D95" opacity="0.85"/>
+    <rect x="527.05" y="96" width="206.52" height="14" fill="#3178C6" opacity="0.85"/>
+    <rect x="733.57" y="96" width="149.93" height="14" fill="#F1E05A" opacity="0.85"/>
+    <rect x="883.50" y="96" width="119.67" height="14" fill="#3572A5" opacity="0.85"/>
+    <rect x="1003.16" y="96" width="75.27" height="14" fill="#663399" opacity="0.85"/>
+    <rect x="1078.43" y="96" width="59.57" height="14" fill="#E34C26" opacity="0.85"/>
   </g>
   <circle cx="67.00" cy="153" r="5" fill="#4F5D95"/>
   <text x="84.00" y="158" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#E6D4A8">PHP</text>
@@ -54,7 +54,7 @@
   <text x="735.33" y="158" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A28F68">17.3%</text>
   <circle cx="784.33" cy="153" r="5" fill="#F1E05A"/>
   <text x="801.33" y="158" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#E6D4A8">JavaScript</text>
-  <text x="1094.00" y="158" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A28F68">12.4%</text>
+  <text x="1094.00" y="158" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A28F68">12.5%</text>
   <circle cx="67.00" cy="187" r="5" fill="#3572A5"/>
   <text x="84.00" y="192" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#E6D4A8">Python</text>
   <text x="376.67" y="192" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#A28F68">10.0%</text>

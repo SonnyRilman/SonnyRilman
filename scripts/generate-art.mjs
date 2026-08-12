@@ -169,18 +169,29 @@ function renderHero({ repoCount, avatar }, t) {
 
 // Latarnya sengaja tembus pandang: menaruh lembar kertas penuh di tiap judul
 // akan membuat halaman terasa penuh tumpukan.
+// Judul di kiri, subtitle dipatok di tepi kanan, garis mengisi sisanya.
+// Taksiran lebar teks hanya menentukan di mana garis mulai dan berhenti, jadi
+// kalau taksirannya meleset yang berubah cuma panjang garis — dua teks tidak
+// pernah bisa saling menabrak.
 function renderSection({ number, title, subtitle }, t) {
   const W = 1200;
-  const titleEnd = 88 + textWidth(title, 26, 4, "serifBold");
-  const subtitleX = titleEnd + 20;
-  const ruleStart = subtitleX + textWidth(subtitle.toUpperCase(), 11, 3, "mono") + 22;
+  const rightEdge = 1192;
+  const label = subtitle.toUpperCase();
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="72" viewBox="0 0 ${W} 72" role="img" aria-label="${escapeXml(number)} — ${escapeXml(title)}">
+  const ruleStart = 88 + textWidth(title, 26, 4, "serifBold") + 30;
+  const ruleEnd = rightEdge - textWidth(label, 11, 3, "mono") - 30;
+
+  const rule =
+    ruleEnd - ruleStart > 40
+      ? `  <line x1="${ruleStart.toFixed(0)}" y1="41" x2="${ruleEnd.toFixed(0)}" y2="41" stroke="${t.rule}" stroke-opacity="0.45" stroke-width="1"/>`
+      : "";
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="72" viewBox="0 0 ${W} 72" role="img" aria-label="${escapeXml(number)} — ${escapeXml(title)} (${escapeXml(subtitle)})">
   ${compassRose(26, 38, 0.95, t.rule, 0.85)}
   <text x="56" y="44" font-family="${MONO}" font-size="13" letter-spacing="2" fill="${t.inkSoft}">${escapeXml(number)}</text>
   <text x="88" y="46" font-family="${SERIF}" font-size="26" font-weight="bold" letter-spacing="4" fill="${t.ink}">${escapeXml(title)}</text>
-  <text x="${subtitleX.toFixed(0)}" y="46" font-family="${MONO}" font-size="11" letter-spacing="3" fill="${t.inkSoft}">${escapeXml(subtitle.toUpperCase())}</text>
-  <line x1="${ruleStart.toFixed(0)}" y1="41" x2="1192" y2="41" stroke="${t.rule}" stroke-opacity="0.45" stroke-width="1"/>
+${rule}
+  <text x="${rightEdge}" y="46" text-anchor="end" font-family="${MONO}" font-size="11" letter-spacing="3" fill="${t.inkSoft}">${escapeXml(label)}</text>
 </svg>
 `;
 }
@@ -191,10 +202,10 @@ function renderCard(project, index, t) {
   const W = 600;
   const H = 330;
   const paper = tornEdge({ x0: 10, y0: 10, x1: W - 10, y1: H - 10, jitter: 3, step: 22, seed: 4100 + index * 37 });
-  const lines = wrapText(project.description, 50).slice(0, 4);
+  const lines = wrapText(project.description, 46).slice(0, 4);
 
   const body = lines
-    .map((line, i) => `  <text x="54" y="${164 + i * 27}" font-family="${SERIF}" font-size="18.5" fill="${t.inkSoft}">${escapeXml(line)}</text>`)
+    .map((line, i) => `  <text x="54" y="${160 + i * 29}" font-family="${SERIF}" font-size="20" fill="${t.inkSoft}">${escapeXml(line)}</text>`)
     .join("\n");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escapeXml(project.title)} — ${escapeXml(project.description)}">
@@ -213,13 +224,13 @@ function renderCard(project, index, t) {
   <rect x="38" y="34" width="524" height="262" fill="none" stroke="${t.ink}" stroke-opacity="0.28" stroke-width="1"/>
 
   <text x="54" y="64" font-family="${MONO}" font-size="12" letter-spacing="4" fill="${t.inkSoft}">N&#186; ${escapeXml(project.rank)}</text>
-  <text x="54" y="112" font-family="${SERIF}" font-size="30" font-weight="bold" letter-spacing="1.5" fill="${t.ink}">${escapeXml(project.title)}</text>
+  <text x="54" y="112" font-family="${SERIF}" font-size="28" font-weight="bold" letter-spacing="1.5" fill="${t.ink}">${escapeXml(project.title)}</text>
   <line x1="54" y1="128" x2="134" y2="128" stroke="${t.rule}" stroke-opacity="0.8" stroke-width="2"/>
 
 ${body}
 
-  <text x="54" y="288" font-family="${MONO}" font-size="12.5" letter-spacing="2.4" fill="${t.inkSoft}">${escapeXml(project.stack)}</text>
-  ${compassRose(534, 272, 0.62, t.rule, 0.3)}
+  <text x="54" y="284" font-family="${MONO}" font-size="12.5" letter-spacing="2.4" fill="${t.inkSoft}">${escapeXml(project.stack)}</text>
+  ${compassRose(534, 270, 0.62, t.rule, 0.3)}
 </svg>
 `;
 }
@@ -276,7 +287,9 @@ function renderStack(icons, t) {
 ${items}`;
   }).join("\n\n");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Perbekalan: ${STACK.map((g) => `${g.label} — ${g.items.map((i) => i.name).join(", ")}`).join("; ")}">
+  const label = `Perbekalan: ${STACK.map((g) => `${g.label} — ${g.items.map((i) => i.name).join(", ")}`).join("; ")}`;
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escapeXml(label)}">
   <defs>${paperDefs(t, { grainOctaves: 2, blur: 22 })}
     <clipPath id="paperClip"><path d="${paper}"/></clipPath>
   </defs>
@@ -365,8 +378,23 @@ const data = await collect();
 const icons = await fetchIcons();
 await mkdir(resolve(ROOT, "assets"), { recursive: true });
 
+// SVG yang bukan XML sah tidak digambar browser sama sekali — yang muncul cuma
+// teks alt-nya. Karena seluruh isi kartu di sini dirakit lewat template string,
+// satu `&` yang lolos escape sudah cukup mematikan satu lembar penuh, jadi tiap
+// berkas diperiksa sebelum ditulis.
+function assertWellFormed(name, svg) {
+  const loose = svg.match(/&(?!(amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)/g);
+  if (loose) {
+    throw new Error(`${name}.svg: ${loose.length} ampersand belum di-escape`);
+  }
+  if (!svg.trimStart().startsWith("<svg") || !svg.trimEnd().endsWith("</svg>")) {
+    throw new Error(`${name}.svg: bukan dokumen SVG utuh`);
+  }
+}
+
 let written = 0;
 async function emit(name, svg) {
+  assertWellFormed(name, svg);
   await writeFile(resolve(ROOT, "assets", `${name}.svg`), svg, "utf8");
   written += 1;
 }
