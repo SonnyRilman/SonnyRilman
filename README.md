@@ -2,119 +2,128 @@
 
 <p align="center">
   <a href="https://github.com/SonnyRilman">
-    <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=70A5FD&center=true&vCenter=true&width=620&lines=Bikin+aplikasi+web+yang+beneran+dipakai;PHP+%2F+Laravel+%C2%B7+React+%C2%B7+Node.js+%C2%B7+.NET;Backend+rapi%2C+frontend+enak+dipakai" />
+    <img alt="Typing SVG" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1400&color=70A5FD&center=true&vCenter=true&width=620&lines=Bikin+aplikasi+web+yang+beneran+dipakai;Backend+rapi%2C+frontend+enak+dipakai" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sonnyrilman">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1A1B27?style=flat-square&logo=linkedin&logoColor=70A5FD&labelColor=1A1B27" />
   </a>
+  &nbsp;
   <a href="https://github.com/SonnyRilman?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Repositories-1A1B27?style=for-the-badge&logo=github&logoColor=white" />
+    <img alt="Repositories" src="https://img.shields.io/badge/Repositories-1A1B27?style=flat-square&logo=github&logoColor=A9B1D6&labelColor=1A1B27" />
   </a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SonnyRilman&style=for-the-badge&color=BF91F3&label=PROFILE+VIEWS" />
+  &nbsp;
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SonnyRilman&style=flat-square&color=1A1B27&label=views" />
 </p>
 
 <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:1A1B27,50:70A5FD,100:BF91F3&height=3&section=header" />
 
-## 👨‍💻 &nbsp;Tentang Saya
+## Tentang Saya
 
-```yaml
-nama:      Sonny Rilman
-peran:     Fullstack Developer
-fokus:     Web apps — dari sistem internal sampai project iseng tengah malam
-sekarang:  ngoprek sistem rekomendasi, audit tool, dan arsitektur aplikasi
-ngobrol:   PHP/Laravel · React · Node.js · .NET · Python · MySQL
-prinsip:   "Kode yang baik itu yang masih kebaca enam bulan kemudian"
-kontak:    linkedin.com/in/sonnyrilman
-```
+Fullstack developer. Sehari-hari membangun aplikasi web — dari sistem internal sampai project iseng
+tengah malam. Belakangan banyak berkutat di sistem rekomendasi, tooling audit, dan menata arsitektur
+aplikasi supaya tidak berantakan enam bulan kemudian.
+
+Paling nyaman di **PHP/Laravel** dan **React**, tapi ikut senang kalau diajak ke **Node.js**, **.NET**,
+atau **Python**. Bisa dihubungi lewat [LinkedIn](https://www.linkedin.com/in/sonnyrilman).
 
 <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:1A1B27,50:70A5FD,100:BF91F3&height=3&section=header" />
 
-## 🧰 &nbsp;Tech Stack
+## Tech Stack
 
-<div align="center">
-
-**Backend & Bahasa**
-
-<img alt="Backend stack" src="https://skillicons.dev/icons?i=php,laravel,nodejs,dotnet,cs,python,fastapi&theme=dark" />
-
-**Frontend**
-
-<img alt="Frontend stack" src="https://skillicons.dev/icons?i=react,nextjs,ts,js,vite,html,css&theme=dark" />
-
-**Database & Tools**
-
-<img alt="Tools" src="https://skillicons.dev/icons?i=mysql,git,github,vscode,postman&theme=dark" />
-
-</div>
+<table>
+  <tr>
+    <td><b>&nbsp;Backend&nbsp;</b></td>
+    <td>
+      <img alt="PHP" src="https://img.shields.io/badge/PHP-1A1B27?style=flat-square&logo=php&logoColor=8892BF" />
+      <img alt="Laravel" src="https://img.shields.io/badge/Laravel-1A1B27?style=flat-square&logo=laravel&logoColor=FF2D20" />
+      <img alt="Node.js" src="https://img.shields.io/badge/Node.js-1A1B27?style=flat-square&logo=nodedotjs&logoColor=339933" />
+      <img alt=".NET" src="https://img.shields.io/badge/.NET-1A1B27?style=flat-square&logo=dotnet&logoColor=8A6FE8" />
+      <img alt="Python" src="https://img.shields.io/badge/Python-1A1B27?style=flat-square&logo=python&logoColor=4B8BBE" />
+      <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1A1B27?style=flat-square&logo=fastapi&logoColor=009688" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>&nbsp;Frontend&nbsp;</b></td>
+    <td>
+      <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img alt="Next.js" src="https://img.shields.io/badge/Next.js-1A1B27?style=flat-square&logo=nextdotjs&logoColor=A9B1D6" />
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1A1B27?style=flat-square&logo=typescript&logoColor=3178C6" />
+      <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1A1B27?style=flat-square&logo=javascript&logoColor=F7DF1E" />
+      <img alt="Vite" src="https://img.shields.io/badge/Vite-1A1B27?style=flat-square&logo=vite&logoColor=BF91F3" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>&nbsp;Data & Tools&nbsp;</b></td>
+    <td>
+      <img alt="MySQL" src="https://img.shields.io/badge/MySQL-1A1B27?style=flat-square&logo=mysql&logoColor=4479A1" />
+      <img alt="Git" src="https://img.shields.io/badge/Git-1A1B27?style=flat-square&logo=git&logoColor=F05032" />
+      <img alt="Postman" src="https://img.shields.io/badge/Postman-1A1B27?style=flat-square&logo=postman&logoColor=FF6C37" />
+      <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1A1B27?style=flat-square&logo=streamlit&logoColor=FF4B4B" />
+    </td>
+  </tr>
+</table>
 
 <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:1A1B27,50:70A5FD,100:BF91F3&height=3&section=header" />
 
-## 🚀 &nbsp;Project Pilihan
+## Project Pilihan
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ &nbsp;GI-GUARD</h3>
+      <h3><a href="https://github.com/SonnyRilman/GI-GUARD">GI-GUARD</a></h3>
       <p>
-        Sistem <b>audit &amp; monitoring aset lini produksi</b> dengan autentikasi biometrik —
+        Sistem audit dan monitoring aset lini produksi dengan autentikasi biometrik —
         pengenalan wajah lewat <code>face-api.js</code> dan dukungan Passkeys (WebAuthn).
       </p>
       <p>
-        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img alt="Biometric" src="https://img.shields.io/badge/Biometric_Auth-BF91F3?style=flat-square" />
-        <img alt="WebAuthn" src="https://img.shields.io/badge/WebAuthn-1A1B27?style=flat-square" />
+        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1A1B27?style=flat-square&logo=typescript&logoColor=3178C6" />
+        <img alt="WebAuthn" src="https://img.shields.io/badge/WebAuthn-1A1B27?style=flat-square&logo=webauthn&logoColor=BF91F3" />
       </p>
-      <p><a href="https://github.com/SonnyRilman/GI-GUARD"><b>Lihat repo →</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📈 &nbsp;Sales Prediction ML</h3>
+      <h3><a href="https://github.com/SonnyRilman/Fullstack-Technical-Test">Sales Prediction ML</a></h3>
       <p>
-        Sistem prediksi penjualan yang mengklasifikasikan produk <b>laris / tidak laris</b>.
-        Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan JWT.
+        Prediksi penjualan yang mengklasifikasikan produk laris atau tidak laris. Frontend
+        React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan JWT Bearer Auth.
       </p>
       <p>
-        <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img alt="JWT" src="https://img.shields.io/badge/JWT-1A1B27?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+        <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1A1B27?style=flat-square&logo=fastapi&logoColor=009688" />
+        <img alt="JWT" src="https://img.shields.io/badge/JWT-1A1B27?style=flat-square&logo=jsonwebtokens&logoColor=A9B1D6" />
       </p>
-      <p><a href="https://github.com/SonnyRilman/Fullstack-Technical-Test"><b>Lihat repo →</b></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🗺️ &nbsp;TransJogja Navigator</h3>
+      <h3><a href="https://github.com/SonnyRilman/TransJogja">TransJogja Navigator</a></h3>
       <p>
-        Mencari <b>rute bus terpendek</b> di jaringan Trans Jogja menggunakan algoritma
-        <b>Dijkstra</b>, dibungkus antarmuka Streamlit yang bisa langsung dicoba.
+        Mencari rute bus terpendek di jaringan Trans Jogja menggunakan algoritma Dijkstra,
+        dibungkus antarmuka Streamlit yang bisa langsung dicoba.
       </p>
       <p>
-        <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-        <img alt="Dijkstra" src="https://img.shields.io/badge/Dijkstra-10B981?style=flat-square" />
+        <img alt="Python" src="https://img.shields.io/badge/Python-1A1B27?style=flat-square&logo=python&logoColor=4B8BBE" />
+        <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1A1B27?style=flat-square&logo=streamlit&logoColor=FF4B4B" />
       </p>
-      <p><a href="https://github.com/SonnyRilman/TransJogja"><b>Lihat repo →</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏝️ &nbsp;SRWK — Wisata Kapuas</h3>
+      <h3><a href="https://github.com/SonnyRilman/sisrek_frontend">SRWK — Wisata Kapuas</a></h3>
       <p>
         Platform rekomendasi destinasi wisata Kabupaten Kapuas, Kalimantan Tengah, memakai
-        <b>hybrid filtering</b> — gabungan content-based dan collaborative filtering.
+        hybrid filtering — gabungan content-based dan collaborative filtering.
       </p>
       <p>
         <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1A1B27?style=flat-square&logo=javascript&logoColor=F7DF1E" />
-        <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img alt="Hybrid Recommender" src="https://img.shields.io/badge/Hybrid_Recommender-BF91F3?style=flat-square" />
+        <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
       </p>
-      <p><a href="https://github.com/SonnyRilman/sisrek_frontend"><b>Lihat repo →</b></a></p>
     </td>
   </tr>
 </table>
 
 <details>
-  <summary><b>&nbsp;📂 &nbsp;Project lainnya</b></summary>
+  <summary><b>&nbsp;Project lainnya</b></summary>
   <br>
 
 | Project | Deskripsi | Stack |
@@ -130,21 +139,8 @@ kontak:    linkedin.com/in/sonnyrilman
 
 <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:1A1B27,50:70A5FD,100:BF91F3&height=3&section=header" />
 
-## 📊 &nbsp;Aktivitas
-
 <p align="center">
-  <img width="98%" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=SonnyRilman&theme=tokyo-night&hide_border=true&bg_color=00000000&color=70A5FD&line=BF91F3&point=FFFFFF&area=true&area_color=414868" />
-</p>
-
-<p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=SonnyRilman&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=70A5FD&icon_color=BF91F3&text_color=A9B1D6&include_all_commits=true" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SonnyRilman&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=70A5FD&text_color=A9B1D6&langs_count=8" />
-</p>
-
-<img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:1A1B27,50:70A5FD,100:BF91F3&height=3&section=header" />
-
-<p align="center">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/output/snake.svg" />
+  <img alt="Kontribusi" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/output/snake.svg" />
 </p>
 
 <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:70A5FD,55:414868,100:1A1B27&height=120&section=footer" />
