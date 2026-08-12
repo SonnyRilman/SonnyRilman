@@ -70,29 +70,20 @@ atau **Python**. Bisa dihubungi lewat [LinkedIn](https://www.linkedin.com/in/son
 
 ## Project Pilihan
 
-### [Sales Prediction ML](https://github.com/SonnyRilman/Fullstack-Technical-Test)
-
-Sistem prediksi penjualan yang mengklasifikasikan produk **laris** atau **tidak laris**.
-Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan JWT Bearer Auth.
-
 <table width="100%">
   <tr>
-    <td width="50%"><img width="100%" alt="Dashboard" src="https://raw.githubusercontent.com/SonnyRilman/Fullstack-Technical-Test/main/DokumentasiUI/Dashboard.png" /></td>
-    <td width="50%"><img width="100%" alt="Tampilan prediksi" src="https://raw.githubusercontent.com/SonnyRilman/Fullstack-Technical-Test/main/DokumentasiUI/Tampilan%20Predeksi.png" /></td>
-  </tr>
-</table>
-
-<p>
-  <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1A1B27?style=flat-square&logo=typescript&logoColor=3178C6" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1A1B27?style=flat-square&logo=fastapi&logoColor=009688" />
-  <img alt="JWT" src="https://img.shields.io/badge/JWT-1A1B27?style=flat-square&logo=jsonwebtokens&logoColor=A9B1D6" />
-</p>
-
-<br>
-
-<table width="100%">
-  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SonnyRilman/Fullstack-Technical-Test">Sales Prediction ML</a></h3>
+      <p>
+        Sistem prediksi penjualan yang mengklasifikasikan produk laris atau tidak laris.
+        Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan JWT Bearer Auth.
+      </p>
+      <p>
+        <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1A1B27?style=flat-square&logo=fastapi&logoColor=009688" />
+        <img alt="JWT" src="https://img.shields.io/badge/JWT-1A1B27?style=flat-square&logo=jsonwebtokens&logoColor=A9B1D6" />
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SonnyRilman/GI-GUARD">GI-GUARD</a></h3>
       <p>
@@ -104,6 +95,8 @@ Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan J
         <img alt="WebAuthn" src="https://img.shields.io/badge/WebAuthn-1A1B27?style=flat-square&logo=webauthn&logoColor=BF91F3" />
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SonnyRilman/TransJogja">TransJogja Navigator</a></h3>
       <p>
@@ -115,8 +108,6 @@ Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan J
         <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1A1B27?style=flat-square&logo=streamlit&logoColor=FF4B4B" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SonnyRilman/sisrek_frontend">SRWK — Wisata Kapuas</a></h3>
       <p>
@@ -128,17 +119,6 @@ Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan J
         <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/SonnyRilman/KuotaKuy">KuotaKuy</a></h3>
-      <p>
-        Platform e-commerce penjualan paket data internet dengan antarmuka yang ringan
-        dan navigasi yang dibuat secepat mungkin.
-      </p>
-      <p>
-        <img alt="React" src="https://img.shields.io/badge/React-1A1B27?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1A1B27?style=flat-square&logo=typescript&logoColor=3178C6" />
-      </p>
-    </td>
   </tr>
 </table>
 
@@ -148,6 +128,7 @@ Frontend React + TypeScript berbicara ke backend FastAPI lewat REST, diamankan J
 
 | Project | Deskripsi | Stack |
 | :--- | :--- | :--- |
+| [KuotaKuy](https://github.com/SonnyRilman/KuotaKuy) | Platform e-commerce penjualan paket data internet | React · TypeScript |
 | [SafeVault](https://github.com/SonnyRilman/web3-storage-engine) | Penyimpanan file terdesentralisasi berbasis IPFS | React · Web3 |
 | [Sisrek Musik](https://github.com/SonnyRilman/sisrek_musik) | Rekomendasi musik hybrid — content-based & knowledge-based | FastAPI · React |
 | [Rekomendasi Kosmetik](https://github.com/SonnyRilman/sistemrekomendasi_project) | Content-based filtering dengan TF-IDF | Python · Jupyter |
