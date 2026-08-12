@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="12" viewBox="0 0 1200 12" role="presentation">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="26" viewBox="0 0 1200 26" role="presentation">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#8A7A55" stop-opacity="0"/>
       <stop offset="0.28" stop-color="#B79A5E" stop-opacity="0.42"/>
-      <stop offset="0.5" stop-color="#C7A55C" stop-opacity="0.75"/>
+      <stop offset="0.46" stop-color="#C7A55C" stop-opacity="0.72"/>
+      <stop offset="0.54" stop-color="#C7A55C" stop-opacity="0.72"/>
       <stop offset="0.72" stop-color="#B79A5E" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#8A7A55" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="5.5" width="1200" height="1" fill="url(#g)"/>
-  <rect x="594" y="2" width="7" height="7" transform="rotate(45 597.5 5.5)" fill="#C7A55C" opacity="0.85"/>
+
+  <rect x="0" y="12.5" width="556" height="1" fill="url(#g)"/>
+  <rect x="644" y="12.5" width="556" height="1" fill="url(#g)"/>
+
+  <!-- mawar kompas: empat mata angin utama, empat penjuru antara -->
+  <g transform="translate(600 13)" fill="#C7A55C">
+    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.9"/>
+    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.55"/>
+  </g>
 </svg>
