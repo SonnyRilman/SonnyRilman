@@ -12,8 +12,6 @@
   <a href="https://github.com/SonnyRilman?tab=repositories">
     <img alt="Repositories" src="https://img.shields.io/badge/Repositories-E0CDA4?style=flat-square&logo=github&logoColor=3A2914&labelColor=E0CDA4" />
   </a>
-  &nbsp;&nbsp;
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SonnyRilman&style=flat-square&color=E0CDA4&label=views" />
 </p>
 
 <picture>

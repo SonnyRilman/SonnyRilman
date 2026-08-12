@@ -34,15 +34,16 @@
   <rect x="38" y="34" width="524" height="262" fill="none" stroke="#3A2914" stroke-opacity="0.28" stroke-width="1"/>
 
   <text x="54" y="64" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12" letter-spacing="4" fill="#6E5A3C">N&#186; 03</text>
-  <text x="54" y="112" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="30" font-weight="bold" letter-spacing="1.5" fill="#3A2914">TransJogja Navigator</text>
+  <text x="54" y="112" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="28" font-weight="bold" letter-spacing="1.5" fill="#3A2914">TransJogja Navigator</text>
   <line x1="54" y1="128" x2="134" y2="128" stroke="#8A6B28" stroke-opacity="0.8" stroke-width="2"/>
 
-  <text x="54" y="164" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">Mencari rute bus terpendek di jaringan Trans Jogja</text>
-  <text x="54" y="191" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">menggunakan algoritma Dijkstra, dibungkus</text>
-  <text x="54" y="218" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">antarmuka Streamlit yang bisa langsung dicoba.</text>
+  <text x="54" y="160" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#6E5A3C">Mencari rute bus terpendek di jaringan Trans</text>
+  <text x="54" y="189" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#6E5A3C">Jogja menggunakan algoritma Dijkstra,</text>
+  <text x="54" y="218" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#6E5A3C">dibungkus antarmuka Streamlit yang bisa</text>
+  <text x="54" y="247" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#6E5A3C">langsung dicoba.</text>
 
-  <text x="54" y="288" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#6E5A3C">PYTHON · STREAMLIT · DIJKSTRA</text>
-  <g transform="translate(534 272) scale(0.62)" fill="#8A6B28">
+  <text x="54" y="284" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#6E5A3C">PYTHON · STREAMLIT · DIJKSTRA</text>
+  <g transform="translate(534 270) scale(0.62)" fill="#8A6B28">
     <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.3"/>
     <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.18"/>
   </g>

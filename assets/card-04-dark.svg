@@ -34,16 +34,16 @@
   <rect x="38" y="34" width="524" height="262" fill="none" stroke="#E6D4A8" stroke-opacity="0.28" stroke-width="1"/>
 
   <text x="54" y="64" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12" letter-spacing="4" fill="#A28F68">N&#186; 04</text>
-  <text x="54" y="112" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="30" font-weight="bold" letter-spacing="1.5" fill="#E6D4A8">SRWK — Wisata Kapuas</text>
+  <text x="54" y="112" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="28" font-weight="bold" letter-spacing="1.5" fill="#E6D4A8">SRWK — Wisata Kapuas</text>
   <line x1="54" y1="128" x2="134" y2="128" stroke="#C7A55C" stroke-opacity="0.8" stroke-width="2"/>
 
-  <text x="54" y="164" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">Platform rekomendasi destinasi wisata Kabupaten</text>
-  <text x="54" y="191" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">Kapuas, Kalimantan Tengah, memakai hybrid</text>
-  <text x="54" y="218" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">filtering — gabungan content-based dan</text>
-  <text x="54" y="245" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">collaborative filtering.</text>
+  <text x="54" y="160" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#A28F68">Platform rekomendasi destinasi wisata</text>
+  <text x="54" y="189" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#A28F68">Kabupaten Kapuas, Kalimantan Tengah, memakai</text>
+  <text x="54" y="218" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#A28F68">hybrid filtering — gabungan content-based dan</text>
+  <text x="54" y="247" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#A28F68">collaborative filtering.</text>
 
-  <text x="54" y="288" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#A28F68">JAVASCRIPT · REACT · HYBRID FILTERING</text>
-  <g transform="translate(534 272) scale(0.62)" fill="#C7A55C">
+  <text x="54" y="284" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#A28F68">JAVASCRIPT · REACT · HYBRID FILTERING</text>
+  <g transform="translate(534 270) scale(0.62)" fill="#C7A55C">
     <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.3"/>
     <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.18"/>
   </g>
