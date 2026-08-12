@@ -4,7 +4,8 @@
 // Disatukan supaya data GitHub cukup diambil sekali, dan supaya seluruh
 // halaman dijamin memakai kertas serta palet yang sama.
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -392,11 +393,35 @@ function assertWellFormed(name, svg) {
   }
 }
 
-let written = 0;
+const digests = new Map();
+
 async function emit(name, svg) {
   assertWellFormed(name, svg);
   await writeFile(resolve(ROOT, "assets", `${name}.svg`), svg, "utf8");
-  written += 1;
+  digests.set(name, createHash("sha1").update(svg).digest("hex").slice(0, 8));
+}
+
+// Proxy gambar GitHub menyimpan tiap URL dan menyajikannya kembali selama
+// alamatnya persis sama. Tanpa penanda versi, memperbaiki sebuah lembar tidak
+// pernah terlihat di halaman: yang tampil tetap salinan lama, kadang berhari-
+// hari. Penandanya diturunkan dari isi berkas, jadi URL hanya berubah kalau
+// gambarnya memang berubah.
+async function stampReadme() {
+  const path = resolve(ROOT, "README.md");
+  const before = await readFile(path, "utf8");
+  let after = before;
+
+  for (const [name, digest] of digests) {
+    after = after.replace(
+      new RegExp(`(assets/${name}\\.svg)(\\?v=[0-9a-f]+)?`, "g"),
+      `$1?v=${digest}`,
+    );
+  }
+
+  if (after !== before) {
+    await writeFile(path, after, "utf8");
+    console.log("README.md: penanda versi diperbarui");
+  }
 }
 
 for (const [theme, t] of Object.entries(THEMES)) {
@@ -412,6 +437,8 @@ for (const [theme, t] of Object.entries(THEMES)) {
   }
 }
 
-console.log(`${written} aset tertulis ke assets/`);
+await stampReadme();
+
+console.log(`${digests.size} aset tertulis ke assets/`);
 console.log(`bounty B${(data.repoCount * 1_000_000).toLocaleString("id-ID")} dari ${data.repoCount} repositori`);
 console.log(`bahasa: ${data.languages.map((l) => `${l.name} ${l.share.toFixed(1)}%`).join(", ")}`);
