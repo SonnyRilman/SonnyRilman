@@ -27,12 +27,12 @@ jobs:
 
       - name: Commit jika ada perubahan
         run: |
-          if git diff --quiet -- assets/; then
+          if git diff --quiet -- assets/ README.md; then
             echo "Tidak ada perubahan, tidak ada yang di-commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/
+          git add assets/ README.md
           git commit -m "Refresh generated profile art"
           git push
