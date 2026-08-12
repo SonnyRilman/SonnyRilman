@@ -5,7 +5,7 @@
 // halaman dijamin memakai kertas serta palet yang sama.
 
 import { createHash } from "node:crypto";
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readdir, readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -14,7 +14,7 @@ import {
   SERIF,
   MONO,
   api,
-  compassRose,
+  anchorMark,
   escapeXml,
   paperDefs,
   textWidth,
@@ -130,7 +130,7 @@ function renderHero({ repoCount, avatar }, t) {
 
   <text x="600" y="134" text-anchor="middle" font-family="${SERIF}" font-size="80" font-weight="bold" letter-spacing="20" fill="${t.ink}">WANTED</text>
   <line x1="330" y1="156" x2="566" y2="156" stroke="${t.rule}" stroke-opacity="0.6" stroke-width="1.5"/>
-  ${compassRose(600, 156, 0.62, t.rule, 0.9)}
+  ${anchorMark(600, 156, 0.62, t.rule, 0.9)}
   <line x1="634" y1="156" x2="870" y2="156" stroke="${t.rule}" stroke-opacity="0.6" stroke-width="1.5"/>
   <text x="600" y="190" text-anchor="middle" font-family="${SERIF}" font-size="19" letter-spacing="11" fill="${t.inkSoft}">DEAD OR ALIVE</text>
 
@@ -188,7 +188,7 @@ function renderSection({ number, title, subtitle }, t) {
       : "";
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="72" viewBox="0 0 ${W} 72" role="img" aria-label="${escapeXml(number)} — ${escapeXml(title)} (${escapeXml(subtitle)})">
-  ${compassRose(26, 38, 0.95, t.rule, 0.85)}
+  ${anchorMark(26, 38, 0.95, t.rule, 0.85)}
   <text x="56" y="44" font-family="${MONO}" font-size="13" letter-spacing="2" fill="${t.inkSoft}">${escapeXml(number)}</text>
   <text x="88" y="46" font-family="${SERIF}" font-size="26" font-weight="bold" letter-spacing="4" fill="${t.ink}">${escapeXml(title)}</text>
 ${rule}
@@ -231,7 +231,7 @@ function renderCard(project, index, t) {
 ${body}
 
   <text x="54" y="284" font-family="${MONO}" font-size="12.5" letter-spacing="2.4" fill="${t.inkSoft}">${escapeXml(project.stack)}</text>
-  ${compassRose(534, 270, 0.62, t.rule, 0.3)}
+  ${anchorMark(534, 270, 0.62, t.rule, 0.3)}
 </svg>
 `;
 }
@@ -306,7 +306,7 @@ ${items}`;
   <rect x="38" y="34" width="1124" height="232" fill="none" stroke="${t.ink}" stroke-opacity="0.28" stroke-width="1"/>
 
 ${rows}
-  ${compassRose(1108, 240, 0.6, t.rule, 0.28)}
+  ${anchorMark(1108, 240, 0.6, t.rule, 0.28)}
 </svg>
 `;
 }
@@ -393,12 +393,12 @@ function assertWellFormed(name, svg) {
   }
 }
 
-const digests = new Map();
+let written = 0;
 
 async function emit(name, svg) {
   assertWellFormed(name, svg);
   await writeFile(resolve(ROOT, "assets", `${name}.svg`), svg, "utf8");
-  digests.set(name, createHash("sha1").update(svg).digest("hex").slice(0, 8));
+  written += 1;
 }
 
 // Proxy gambar GitHub menyimpan tiap URL dan menyajikannya kembali selama
@@ -407,11 +407,20 @@ async function emit(name, svg) {
 // hari. Penandanya diturunkan dari isi berkas, jadi URL hanya berubah kalau
 // gambarnya memang berubah.
 async function stampReadme() {
+  const dir = resolve(ROOT, "assets");
   const path = resolve(ROOT, "README.md");
   const before = await readFile(path, "utf8");
   let after = before;
 
-  for (const [name, digest] of digests) {
+  // Seluruh isi assets/ ikut distempel, bukan hanya yang dibangkitkan script
+  // ini: berkas yang ditulis tangan terkena cache proxy yang sama persis.
+  for (const file of (await readdir(dir)).filter((f) => f.endsWith(".svg"))) {
+    const name = file.slice(0, -4);
+    const digest = createHash("sha1")
+      .update(await readFile(resolve(dir, file)))
+      .digest("hex")
+      .slice(0, 8);
+
     after = after.replace(
       new RegExp(`(assets/${name}\\.svg)(\\?v=[0-9a-f]+)?`, "g"),
       `$1?v=${digest}`,
@@ -439,6 +448,6 @@ for (const [theme, t] of Object.entries(THEMES)) {
 
 await stampReadme();
 
-console.log(`${digests.size} aset tertulis ke assets/`);
+console.log(`${written} aset tertulis ke assets/`);
 console.log(`bounty B${(data.repoCount * 1_000_000).toLocaleString("id-ID")} dari ${data.repoCount} repositori`);
 console.log(`bahasa: ${data.languages.map((l) => `${l.name} ${l.share.toFixed(1)}%`).join(", ")}`);

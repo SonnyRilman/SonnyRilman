@@ -100,11 +100,17 @@ export function paperDefs(t, { grainOctaves = 3, blur = 26 } = {}) {
     </filter>`;
 }
 
-// Mawar kompas delapan arah, dipakai sebagai ornamen berulang.
-export function compassRose(x, y, scale, color, opacity = 0.9) {
-  return `<g transform="translate(${x} ${y}) scale(${scale})" fill="${color}">
-    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="${opacity}"/>
-    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="${(Number(opacity) * 0.6).toFixed(2)}"/>
+// Jangkar, ornamen berulang di seluruh halaman. Digambar dengan celah lebar
+// antar bagian: di judul section lambangnya cuma sekitar 14 piksel, dan bentuk
+// yang terlalu rapat akan menggumpal jadi noda di ukuran itu.
+export function anchorMark(x, y, scale, color, opacity = 0.9) {
+  return `<g transform="translate(${x} ${y}) scale(${scale})" fill="${color}" opacity="${opacity}">
+    <path fill-rule="evenodd" d="M-4-10a4 4 0 1 0 8 0 4 4 0 1 0-8 0ZM-2.2-10a2.2 2.2 0 1 1 4.4 0 2.2 2.2 0 1 1-4.4 0Z"/>
+    <rect x="-1.1" y="-8" width="2.2" height="17"/>
+    <rect x="-7.5" y="-4.6" width="15" height="2.2"/>
+    <path d="M-10.5 1.5C-10.5 8-5.5 12 0 12.5 5.5 12 10.5 8 10.5 1.5L7.6 1.5C7.6 6.4 4 9.4 0 9.8-4 9.4-7.6 6.4-7.6 1.5Z"/>
+    <path d="M-10.5 1.5-13.8-2.2-6.8 0.2Z"/>
+    <path d="M10.5 1.5 13.8-2.2 6.8 0.2Z"/>
   </g>`;
 }
 

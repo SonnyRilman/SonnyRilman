@@ -43,8 +43,12 @@
   <text x="54" y="247" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" fill="#A28F68">langsung dicoba.</text>
 
   <text x="54" y="284" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#A28F68">PYTHON · STREAMLIT · DIJKSTRA</text>
-  <g transform="translate(534 270) scale(0.62)" fill="#C7A55C">
-    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.3"/>
-    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.18"/>
+  <g transform="translate(534 270) scale(0.62)" fill="#C7A55C" opacity="0.3">
+    <path fill-rule="evenodd" d="M-4-10a4 4 0 1 0 8 0 4 4 0 1 0-8 0ZM-2.2-10a2.2 2.2 0 1 1 4.4 0 2.2 2.2 0 1 1-4.4 0Z"/>
+    <rect x="-1.1" y="-8" width="2.2" height="17"/>
+    <rect x="-7.5" y="-4.6" width="15" height="2.2"/>
+    <path d="M-10.5 1.5C-10.5 8-5.5 12 0 12.5 5.5 12 10.5 8 10.5 1.5L7.6 1.5C7.6 6.4 4 9.4 0 9.8-4 9.4-7.6 6.4-7.6 1.5Z"/>
+    <path d="M-10.5 1.5-13.8-2.2-6.8 0.2Z"/>
+    <path d="M10.5 1.5 13.8-2.2 6.8 0.2Z"/>
   </g>
 </svg>
