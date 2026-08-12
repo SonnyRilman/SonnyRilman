@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="TransJogja Navigator — Mencari rute bus terpendek di jaringan Trans Jogja menggunakan algoritma Dijkstra, dibungkus antarmuka Streamlit yang bisa langsung dicoba.">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241B10"/>
+      <stop offset="1" stop-color="#191207"/>
+    </linearGradient>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.10" intercept="0"/>
+      </feComponentTransfer>
+    </filter>
+
+    <filter id="blot" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="drop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="paperClip"><path d="M10.0,7.4L32.0,11.9L54.0,10.7L76.0,9.6L98.0,12.1L120.0,10.6L142.0,9.1L164.0,12.2L186.0,10.7L208.0,7.5L230.0,8.0L252.0,10.4L274.0,7.7L296.0,8.1L318.0,10.9L340.0,9.4L362.0,12.5L384.0,12.9L406.0,8.6L428.0,11.6L450.0,11.0L472.0,8.8L494.0,10.9L516.0,11.6L538.0,9.2L560.0,8.6L582.0,9.6L591.0,10.0L588.1,32.0L589.4,54.0L592.0,76.0L588.6,98.0L587.0,120.0L591.7,142.0L590.5,164.0L588.9,186.0L590.2,208.0L587.4,230.0L589.3,252.0L591.6,274.0L592.5,296.0L590.7,318.0L590.0,321.4L568.0,320.5L546.0,320.4L524.0,319.7L502.0,319.7L480.0,320.7L458.0,320.6L436.0,322.4L414.0,317.7L392.0,322.7L370.0,320.1L348.0,318.3L326.0,321.3L304.0,321.5L282.0,318.4L260.0,317.2L238.0,317.3L216.0,317.5L194.0,322.5L172.0,318.6L150.0,322.1L128.0,318.1L106.0,319.0L84.0,322.3L62.0,319.0L40.0,321.3L18.0,322.4L12.6,320.0L8.5,298.0L12.6,276.0L9.3,254.0L12.0,232.0L8.1,210.0L8.5,188.0L9.8,166.0L12.7,144.0L10.8,122.0L12.5,100.0L12.0,78.0L10.0,56.0L7.4,34.0L11.6,12.0Z"/></clipPath>
+  </defs>
+
+  <path d="M10.0,7.4L32.0,11.9L54.0,10.7L76.0,9.6L98.0,12.1L120.0,10.6L142.0,9.1L164.0,12.2L186.0,10.7L208.0,7.5L230.0,8.0L252.0,10.4L274.0,7.7L296.0,8.1L318.0,10.9L340.0,9.4L362.0,12.5L384.0,12.9L406.0,8.6L428.0,11.6L450.0,11.0L472.0,8.8L494.0,10.9L516.0,11.6L538.0,9.2L560.0,8.6L582.0,9.6L591.0,10.0L588.1,32.0L589.4,54.0L592.0,76.0L588.6,98.0L587.0,120.0L591.7,142.0L590.5,164.0L588.9,186.0L590.2,208.0L587.4,230.0L589.3,252.0L591.6,274.0L592.5,296.0L590.7,318.0L590.0,321.4L568.0,320.5L546.0,320.4L524.0,319.7L502.0,319.7L480.0,320.7L458.0,320.6L436.0,322.4L414.0,317.7L392.0,322.7L370.0,320.1L348.0,318.3L326.0,321.3L304.0,321.5L282.0,318.4L260.0,317.2L238.0,317.3L216.0,317.5L194.0,322.5L172.0,318.6L150.0,322.1L128.0,318.1L106.0,319.0L84.0,322.3L62.0,319.0L40.0,321.3L18.0,322.4L12.6,320.0L8.5,298.0L12.6,276.0L9.3,254.0L12.0,232.0L8.1,210.0L8.5,188.0L9.8,166.0L12.7,144.0L10.8,122.0L12.5,100.0L12.0,78.0L10.0,56.0L7.4,34.0L11.6,12.0Z" fill="url(#paper)" filter="url(#drop)"/>
+  <g clip-path="url(#paperClip)">
+    <ellipse cx="90" cy="40" rx="90" ry="55" fill="#000000" opacity="0.20" filter="url(#blot)"/>
+    <ellipse cx="540" cy="320" rx="110" ry="60" fill="#000000" opacity="0.20" filter="url(#blot)"/>
+    <rect width="600" height="330" filter="url(#grain)" opacity="0.5"/>
+  </g>
+
+  <rect x="30" y="26" width="540" height="278" fill="none" stroke="#E6D4A8" stroke-opacity="0.5" stroke-width="2.5"/>
+  <rect x="38" y="34" width="524" height="262" fill="none" stroke="#E6D4A8" stroke-opacity="0.28" stroke-width="1"/>
+
+  <text x="54" y="64" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12" letter-spacing="4" fill="#A28F68">N&#186; 03</text>
+  <text x="54" y="112" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="30" font-weight="bold" letter-spacing="1.5" fill="#E6D4A8">TransJogja Navigator</text>
+  <line x1="54" y1="128" x2="134" y2="128" stroke="#C7A55C" stroke-opacity="0.8" stroke-width="2"/>
+
+  <text x="54" y="164" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">Mencari rute bus terpendek di jaringan Trans Jogja</text>
+  <text x="54" y="191" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">menggunakan algoritma Dijkstra, dibungkus</text>
+  <text x="54" y="218" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#A28F68">antarmuka Streamlit yang bisa langsung dicoba.</text>
+
+  <text x="54" y="288" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#A28F68">PYTHON · STREAMLIT · DIJKSTRA</text>
+  <g transform="translate(534 272) scale(0.62)" fill="#C7A55C">
+    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.3"/>
+    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.18"/>
+  </g>
+</svg>
