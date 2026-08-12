@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-light.svg" />
-  <img width="100%" alt="Sonny Rilman — Fullstack Developer" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg" />
+  <img width="100%" alt="Poster buronan: Sonny Rilman, fullstack developer" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg" />
 </picture>
 
 <p align="center">
