@@ -1,41 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="205" viewBox="0 0 1200 205" role="img" aria-label="Komposisi bahasa pada repositori SonnyRilman">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Komposisi bahasa pada 35 repositori publik">
   <defs>
-    <clipPath id="barClip">
-      <rect x="48" y="78" width="1104" height="14" rx="7"/>
-    </clipPath>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADCBA"/>
+      <stop offset="1" stop-color="#DCC9A0"/>
+    </linearGradient>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.13" intercept="0"/>
+      </feComponentTransfer>
+    </filter>
+
+    <filter id="blot" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+
+    <filter id="drop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#4A3A22" flood-opacity="0.28"/>
+    </filter>
+    <clipPath id="paperClip"><path d="M10.0,9.0L34.0,8.9L58.0,7.1L82.0,8.2L106.0,11.2L130.0,11.4L154.0,9.0L178.0,7.1L202.0,11.2L226.0,8.3L250.0,12.1L274.0,8.0L298.0,10.9L322.0,8.9L346.0,9.6L370.0,10.7L394.0,9.1L418.0,10.9L442.0,12.1L466.0,8.0L490.0,10.0L514.0,9.3L538.0,7.8L562.0,12.4L586.0,9.7L610.0,7.9L634.0,12.5L658.0,12.4L682.0,9.1L706.0,9.1L730.0,7.0L754.0,9.5L778.0,10.4L802.0,9.7L826.0,12.2L850.0,12.1L874.0,11.6L898.0,8.4L922.0,9.5L946.0,11.5L970.0,11.9L994.0,7.0L1018.0,7.4L1042.0,7.8L1066.0,9.7L1090.0,12.4L1114.0,8.4L1138.0,10.9L1162.0,11.5L1186.0,11.9L1189.9,10.0L1187.4,34.0L1187.8,58.0L1187.1,82.0L1189.0,106.0L1187.5,130.0L1188.0,154.0L1190.8,178.0L1188.1,202.0L1190.0,221.7L1166.0,222.3L1142.0,217.9L1118.0,222.0L1094.0,219.6L1070.0,218.8L1046.0,222.4L1022.0,219.2L998.0,222.2L974.0,219.1L950.0,217.9L926.0,218.3L902.0,217.0L878.0,220.1L854.0,220.5L830.0,217.1L806.0,222.9L782.0,217.6L758.0,221.5L734.0,217.8L710.0,218.0L686.0,217.3L662.0,221.4L638.0,218.0L614.0,221.4L590.0,221.3L566.0,221.2L542.0,217.3L518.0,219.5L494.0,217.7L470.0,218.9L446.0,218.9L422.0,217.8L398.0,222.0L374.0,221.1L350.0,217.4L326.0,221.2L302.0,222.3L278.0,218.6L254.0,223.0L230.0,218.4L206.0,217.9L182.0,217.8L158.0,220.1L134.0,220.8L110.0,217.0L86.0,218.0L62.0,218.7L38.0,222.1L14.0,219.1L12.3,220.0L12.9,196.0L9.2,172.0L7.3,148.0L8.0,124.0L9.1,100.0L8.5,76.0L12.2,52.0L9.1,28.0Z"/></clipPath>
+    <clipPath id="barClip"><rect x="62" y="96" width="1076" height="14" rx="7"/></clipPath>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="203" rx="14" fill="#FBFBF8" stroke="#9A7B2F" stroke-opacity="0.28"/>
-
-  <text x="48" y="52" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="11" letter-spacing="4.5" fill="#9A7B2F">KOMPOSISI BAHASA</text>
-  <text x="1152" y="52" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#6B7280">35 repositori publik</text>
-
-  <rect x="48" y="78" width="1104" height="14" rx="7" fill="#0B0D12" fill-opacity="0.08"/>
-  <g clip-path="url(#barClip)">
-    <rect x="48.00" y="78" width="480.05" height="14" fill="#4F5D95" opacity="0.92"/>
-    <rect x="528.05" y="78" width="213.18" height="14" fill="#3178C6" opacity="0.92"/>
-    <rect x="741.23" y="78" width="148.06" height="14" fill="#F1E05A" opacity="0.92"/>
-    <rect x="889.29" y="78" width="123.53" height="14" fill="#3572A5" opacity="0.92"/>
-    <rect x="1012.81" y="78" width="77.70" height="14" fill="#663399" opacity="0.92"/>
-    <rect x="1090.51" y="78" width="61.49" height="14" fill="#E34C26" opacity="0.92"/>
+  <path d="M10.0,9.0L34.0,8.9L58.0,7.1L82.0,8.2L106.0,11.2L130.0,11.4L154.0,9.0L178.0,7.1L202.0,11.2L226.0,8.3L250.0,12.1L274.0,8.0L298.0,10.9L322.0,8.9L346.0,9.6L370.0,10.7L394.0,9.1L418.0,10.9L442.0,12.1L466.0,8.0L490.0,10.0L514.0,9.3L538.0,7.8L562.0,12.4L586.0,9.7L610.0,7.9L634.0,12.5L658.0,12.4L682.0,9.1L706.0,9.1L730.0,7.0L754.0,9.5L778.0,10.4L802.0,9.7L826.0,12.2L850.0,12.1L874.0,11.6L898.0,8.4L922.0,9.5L946.0,11.5L970.0,11.9L994.0,7.0L1018.0,7.4L1042.0,7.8L1066.0,9.7L1090.0,12.4L1114.0,8.4L1138.0,10.9L1162.0,11.5L1186.0,11.9L1189.9,10.0L1187.4,34.0L1187.8,58.0L1187.1,82.0L1189.0,106.0L1187.5,130.0L1188.0,154.0L1190.8,178.0L1188.1,202.0L1190.0,221.7L1166.0,222.3L1142.0,217.9L1118.0,222.0L1094.0,219.6L1070.0,218.8L1046.0,222.4L1022.0,219.2L998.0,222.2L974.0,219.1L950.0,217.9L926.0,218.3L902.0,217.0L878.0,220.1L854.0,220.5L830.0,217.1L806.0,222.9L782.0,217.6L758.0,221.5L734.0,217.8L710.0,218.0L686.0,217.3L662.0,221.4L638.0,218.0L614.0,221.4L590.0,221.3L566.0,221.2L542.0,217.3L518.0,219.5L494.0,217.7L470.0,218.9L446.0,218.9L422.0,217.8L398.0,222.0L374.0,221.1L350.0,217.4L326.0,221.2L302.0,222.3L278.0,218.6L254.0,223.0L230.0,218.4L206.0,217.9L182.0,217.8L158.0,220.1L134.0,220.8L110.0,217.0L86.0,218.0L62.0,218.7L38.0,222.1L14.0,219.1L12.3,220.0L12.9,196.0L9.2,172.0L7.3,148.0L8.0,124.0L9.1,100.0L8.5,76.0L12.2,52.0L9.1,28.0Z" fill="url(#paper)" filter="url(#drop)"/>
+  <g clip-path="url(#paperClip)">
+    <ellipse cx="140" cy="30" rx="120" ry="60" fill="#6B4C22" opacity="0.13" filter="url(#blot)"/>
+    <ellipse cx="1060" cy="220" rx="140" ry="70" fill="#6B4C22" opacity="0.13" filter="url(#blot)"/>
+    <rect width="1200" height="230" filter="url(#grain)" opacity="0.5"/>
   </g>
 
-  <circle cx="53.00" cy="133" r="5" fill="#4F5D95"/>
-  <text x="70.00" y="138" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#5D6470">PHP</text>
-  <text x="376.00" y="138" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6B7280">39.1%</text>
-  <circle cx="421.00" cy="133" r="5" fill="#3178C6"/>
-  <text x="438.00" y="138" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#5D6470">TypeScript</text>
-  <text x="744.00" y="138" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6B7280">17.4%</text>
-  <circle cx="789.00" cy="133" r="5" fill="#F1E05A"/>
-  <text x="806.00" y="138" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#5D6470">JavaScript</text>
-  <text x="1112.00" y="138" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6B7280">12.1%</text>
-  <circle cx="53.00" cy="169" r="5" fill="#3572A5"/>
-  <text x="70.00" y="174" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#5D6470">Python</text>
-  <text x="376.00" y="174" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6B7280">10.1%</text>
-  <circle cx="421.00" cy="169" r="5" fill="#663399"/>
-  <text x="438.00" y="174" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#5D6470">CSS</text>
-  <text x="744.00" y="174" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6B7280">6.3%</text>
-  <circle cx="789.00" cy="169" r="5" fill="#E34C26"/>
-  <text x="806.00" y="174" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#5D6470">HTML</text>
-  <text x="1112.00" y="174" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6B7280">5.0%</text>
+  <rect x="30" y="26" width="1140" height="178" fill="none" stroke="#3A2914" stroke-opacity="0.5" stroke-width="2.5"/>
+  <rect x="38" y="34" width="1124" height="162" fill="none" stroke="#3A2914" stroke-opacity="0.28" stroke-width="1"/>
+
+  <text x="62" y="72" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="20" font-weight="bold" letter-spacing="5" fill="#3A2914">KOMPOSISI BAHASA</text>
+  <text x="1138" y="72" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#6E5A3C">35 repositori publik</text>
+
+  <rect x="62" y="96" width="1076" height="14" rx="7" fill="#3A2914" fill-opacity="0.12"/>
+  <g clip-path="url(#barClip)">
+    <rect x="62.00" y="96" width="466.02" height="14" fill="#4F5D95" opacity="0.85"/>
+    <rect x="528.02" y="96" width="206.95" height="14" fill="#3178C6" opacity="0.85"/>
+    <rect x="734.97" y="96" width="147.99" height="14" fill="#F1E05A" opacity="0.85"/>
+    <rect x="882.96" y="96" width="119.92" height="14" fill="#3572A5" opacity="0.85"/>
+    <rect x="1002.88" y="96" width="75.43" height="14" fill="#663399" opacity="0.85"/>
+    <rect x="1078.31" y="96" width="59.69" height="14" fill="#E34C26" opacity="0.85"/>
+  </g>
+  <circle cx="67.00" cy="153" r="5" fill="#4F5D95"/>
+  <text x="84.00" y="158" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">PHP</text>
+  <text x="376.67" y="158" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6E5A3C">38.9%</text>
+  <circle cx="425.67" cy="153" r="5" fill="#3178C6"/>
+  <text x="442.67" y="158" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">TypeScript</text>
+  <text x="735.33" y="158" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6E5A3C">17.3%</text>
+  <circle cx="784.33" cy="153" r="5" fill="#F1E05A"/>
+  <text x="801.33" y="158" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">JavaScript</text>
+  <text x="1094.00" y="158" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6E5A3C">12.4%</text>
+  <circle cx="67.00" cy="187" r="5" fill="#3572A5"/>
+  <text x="84.00" y="192" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">Python</text>
+  <text x="376.67" y="192" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6E5A3C">10.0%</text>
+  <circle cx="425.67" cy="187" r="5" fill="#663399"/>
+  <text x="442.67" y="192" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">CSS</text>
+  <text x="735.33" y="192" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6E5A3C">6.3%</text>
+  <circle cx="784.33" cy="187" r="5" fill="#E34C26"/>
+  <text x="801.33" y="192" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">HTML</text>
+  <text x="1094.00" y="192" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" fill="#6E5A3C">5.0%</text>
 </svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="04 — LOG POSE">
+  <g transform="translate(26 38) scale(0.95)" fill="#C7A55C">
+    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.85"/>
+    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.51"/>
+  </g>
+  <text x="56" y="44" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="13" letter-spacing="2" fill="#A28F68">04</text>
+  <text x="88" y="46" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="26" font-weight="bold" letter-spacing="4" fill="#E6D4A8">LOG POSE</text>
+  <text x="265" y="46" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="11" letter-spacing="3" fill="#A28F68">AKTIVITAS</text>
+  <line x1="373" y1="41" x2="1192" y2="41" stroke="#C7A55C" stroke-opacity="0.45" stroke-width="1"/>
+</svg>

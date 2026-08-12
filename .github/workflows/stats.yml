@@ -19,15 +19,11 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Bangun ulang poster buronan
-        run: node scripts/generate-hero.mjs
+      - name: Bangun ulang seluruh aset gambar
+        run: node scripts/generate-art.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Bangun ulang kartu komposisi bahasa
-        run: node scripts/generate-stats.mjs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit jika ada perubahan
         run: |

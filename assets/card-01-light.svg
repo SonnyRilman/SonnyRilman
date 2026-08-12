@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="Sales Prediction ML — Sistem prediksi penjualan yang mengklasifikasikan produk laris atau tidak laris. Frontend React berbicara ke backend FastAPI lewat REST, diamankan JWT Bearer Auth.">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EADCBA"/>
+      <stop offset="1" stop-color="#DCC9A0"/>
+    </linearGradient>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.13" intercept="0"/>
+      </feComponentTransfer>
+    </filter>
+
+    <filter id="blot" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="drop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#4A3A22" flood-opacity="0.28"/>
+    </filter>
+    <clipPath id="paperClip"><path d="M10.0,7.8L32.0,12.9L54.0,11.4L76.0,11.4L98.0,10.6L120.0,10.9L142.0,12.6L164.0,11.3L186.0,7.1L208.0,9.9L230.0,9.5L252.0,8.5L274.0,8.9L296.0,9.8L318.0,7.2L340.0,12.8L362.0,11.2L384.0,11.5L406.0,10.3L428.0,12.8L450.0,12.5L472.0,11.3L494.0,12.2L516.0,7.4L538.0,9.4L560.0,7.5L582.0,9.5L588.5,10.0L592.8,32.0L588.9,54.0L592.2,76.0L592.8,98.0L587.1,120.0L589.6,142.0L590.7,164.0L587.7,186.0L587.2,208.0L590.8,230.0L588.9,252.0L591.3,274.0L592.4,296.0L589.5,318.0L590.0,322.4L568.0,317.5L546.0,318.8L524.0,318.8L502.0,322.8L480.0,320.5L458.0,319.2L436.0,317.3L414.0,320.1L392.0,319.1L370.0,322.2L348.0,318.1L326.0,319.3L304.0,322.6L282.0,318.9L260.0,317.9L238.0,321.7L216.0,317.5L194.0,320.0L172.0,317.3L150.0,322.2L128.0,322.7L106.0,322.2L84.0,317.1L62.0,322.6L40.0,321.0L18.0,320.4L11.3,320.0L7.6,298.0L11.1,276.0L10.0,254.0L11.4,232.0L7.0,210.0L9.6,188.0L9.7,166.0L8.6,144.0L7.9,122.0L11.1,100.0L10.9,78.0L9.0,56.0L7.8,34.0L8.4,12.0Z"/></clipPath>
+  </defs>
+
+  <path d="M10.0,7.8L32.0,12.9L54.0,11.4L76.0,11.4L98.0,10.6L120.0,10.9L142.0,12.6L164.0,11.3L186.0,7.1L208.0,9.9L230.0,9.5L252.0,8.5L274.0,8.9L296.0,9.8L318.0,7.2L340.0,12.8L362.0,11.2L384.0,11.5L406.0,10.3L428.0,12.8L450.0,12.5L472.0,11.3L494.0,12.2L516.0,7.4L538.0,9.4L560.0,7.5L582.0,9.5L588.5,10.0L592.8,32.0L588.9,54.0L592.2,76.0L592.8,98.0L587.1,120.0L589.6,142.0L590.7,164.0L587.7,186.0L587.2,208.0L590.8,230.0L588.9,252.0L591.3,274.0L592.4,296.0L589.5,318.0L590.0,322.4L568.0,317.5L546.0,318.8L524.0,318.8L502.0,322.8L480.0,320.5L458.0,319.2L436.0,317.3L414.0,320.1L392.0,319.1L370.0,322.2L348.0,318.1L326.0,319.3L304.0,322.6L282.0,318.9L260.0,317.9L238.0,321.7L216.0,317.5L194.0,320.0L172.0,317.3L150.0,322.2L128.0,322.7L106.0,322.2L84.0,317.1L62.0,322.6L40.0,321.0L18.0,320.4L11.3,320.0L7.6,298.0L11.1,276.0L10.0,254.0L11.4,232.0L7.0,210.0L9.6,188.0L9.7,166.0L8.6,144.0L7.9,122.0L11.1,100.0L10.9,78.0L9.0,56.0L7.8,34.0L8.4,12.0Z" fill="url(#paper)" filter="url(#drop)"/>
+  <g clip-path="url(#paperClip)">
+    <ellipse cx="90" cy="40" rx="90" ry="55" fill="#6B4C22" opacity="0.13" filter="url(#blot)"/>
+    <ellipse cx="540" cy="320" rx="110" ry="60" fill="#6B4C22" opacity="0.13" filter="url(#blot)"/>
+    <rect width="600" height="330" filter="url(#grain)" opacity="0.5"/>
+  </g>
+
+  <rect x="30" y="26" width="540" height="278" fill="none" stroke="#3A2914" stroke-opacity="0.5" stroke-width="2.5"/>
+  <rect x="38" y="34" width="524" height="262" fill="none" stroke="#3A2914" stroke-opacity="0.28" stroke-width="1"/>
+
+  <text x="54" y="64" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12" letter-spacing="4" fill="#6E5A3C">N&#186; 01</text>
+  <text x="54" y="112" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="30" font-weight="bold" letter-spacing="1.5" fill="#3A2914">Sales Prediction ML</text>
+  <line x1="54" y1="128" x2="134" y2="128" stroke="#8A6B28" stroke-opacity="0.8" stroke-width="2"/>
+
+  <text x="54" y="164" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">Sistem prediksi penjualan yang mengklasifikasikan</text>
+  <text x="54" y="191" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">produk laris atau tidak laris. Frontend React</text>
+  <text x="54" y="218" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">berbicara ke backend FastAPI lewat REST, diamankan</text>
+  <text x="54" y="245" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="18.5" fill="#6E5A3C">JWT Bearer Auth.</text>
+
+  <text x="54" y="288" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="12.5" letter-spacing="2.4" fill="#6E5A3C">REACT · TYPESCRIPT · FASTAPI · JWT</text>
+  <g transform="translate(534 272) scale(0.62)" fill="#8A6B28">
+    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.3"/>
+    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.18"/>
+  </g>
+</svg>
