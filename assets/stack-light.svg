@@ -71,8 +71,12 @@
   <text x="490" y="240" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">Postman</text>
   <g transform="translate(582 223) scale(0.9)"><path d="M16.673 11.32l6.862-3.618c.233-.136.554.12.442.387L20.463 17.1zm-8.556-.229l3.473-5.187c.203-.328.578-.316.793-.028l7.886 11.75zm-3.375 7.25c-.28 0-.835-.284-.993-.716l-3.72-9.46c-.118-.331.139-.614.48-.464l19.474 10.306c-.149.147-.453.337-.72.334z" fill="#3A2914" fill-opacity="0.85"/></g>
   <text x="614" y="240" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="16" fill="#3A2914">Streamlit</text>
-  <g transform="translate(1108 240) scale(0.6)" fill="#8A6B28">
-    <path d="M0-12 2.6-3.2 11 0 2.6 3.2 0 12-2.6 3.2-11 0-2.6-3.2Z" opacity="0.28"/>
-    <path d="M6.4-6.4 2.6-1.6 1.6-2.6 6.4-6.4ZM-6.4 6.4-2.6 1.6-1.6 2.6-6.4 6.4ZM6.4 6.4 1.6 2.6 2.6 1.6 6.4 6.4ZM-6.4-6.4-1.6-2.6-2.6-1.6-6.4-6.4Z" opacity="0.17"/>
+  <g transform="translate(1108 240) scale(0.6)" fill="#8A6B28" opacity="0.28">
+    <path fill-rule="evenodd" d="M-4-10a4 4 0 1 0 8 0 4 4 0 1 0-8 0ZM-2.2-10a2.2 2.2 0 1 1 4.4 0 2.2 2.2 0 1 1-4.4 0Z"/>
+    <rect x="-1.1" y="-8" width="2.2" height="17"/>
+    <rect x="-7.5" y="-4.6" width="15" height="2.2"/>
+    <path d="M-10.5 1.5C-10.5 8-5.5 12 0 12.5 5.5 12 10.5 8 10.5 1.5L7.6 1.5C7.6 6.4 4 9.4 0 9.8-4 9.4-7.6 6.4-7.6 1.5Z"/>
+    <path d="M-10.5 1.5-13.8-2.2-6.8 0.2Z"/>
+    <path d="M10.5 1.5 13.8-2.2 6.8 0.2Z"/>
   </g>
 </svg>
