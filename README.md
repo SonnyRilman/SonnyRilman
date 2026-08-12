@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sonnyrilman">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0D0F16?style=flat-square&logo=linkedin&logoColor=C7A55C&labelColor=0D0F16" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1C2130?style=flat-square&logo=linkedin&logoColor=C7A55C&labelColor=1C2130" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/SonnyRilman?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Repositories-0D0F16?style=flat-square&logo=github&logoColor=9AA0AE&labelColor=0D0F16" />
+    <img alt="Repositories" src="https://img.shields.io/badge/Repositories-1C2130?style=flat-square&logo=github&logoColor=E6EAF2&labelColor=1C2130" />
   </a>
   &nbsp;&nbsp;
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SonnyRilman&style=flat-square&color=0D0F16&label=views" />
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=SonnyRilman&style=flat-square&color=1C2130&label=views" />
 </p>
 
 <img width="100%" alt="" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/rule.svg" />
@@ -31,29 +31,29 @@ Kalau mau ngobrol, saya ada di [LinkedIn](https://www.linkedin.com/in/sonnyrilma
 
 <p>
   <samp><b>Backend</b></samp><br />
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-0D0F16?style=flat-square&logo=php&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Laravel" src="https://img.shields.io/badge/Laravel-0D0F16?style=flat-square&logo=laravel&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-0D0F16?style=flat-square&logo=nodedotjs&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt=".NET" src="https://img.shields.io/badge/.NET-0D0F16?style=flat-square&logo=dotnet&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-0D0F16?style=flat-square&logo=python&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0D0F16?style=flat-square&logo=fastapi&logoColor=9AA0AE&labelColor=0D0F16" />
+  <img alt="PHP" src="https://img.shields.io/badge/PHP-1C2130?style=flat-square&logo=php&logoColor=8892BF&labelColor=1C2130" />
+  <img alt="Laravel" src="https://img.shields.io/badge/Laravel-1C2130?style=flat-square&logo=laravel&logoColor=FF2D20&labelColor=1C2130" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-1C2130?style=flat-square&logo=nodedotjs&logoColor=5FA04E&labelColor=1C2130" />
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-1C2130?style=flat-square&logo=dotnet&logoColor=A179DC&labelColor=1C2130" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-1C2130?style=flat-square&logo=python&logoColor=4B8BBE&labelColor=1C2130" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1C2130?style=flat-square&logo=fastapi&logoColor=009688&labelColor=1C2130" />
 </p>
 
 <p>
   <samp><b>Frontend</b></samp><br />
-  <img alt="React" src="https://img.shields.io/badge/React-0D0F16?style=flat-square&logo=react&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-0D0F16?style=flat-square&logo=nextdotjs&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-0D0F16?style=flat-square&logo=typescript&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-0D0F16?style=flat-square&logo=javascript&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-0D0F16?style=flat-square&logo=vite&logoColor=9AA0AE&labelColor=0D0F16" />
+  <img alt="React" src="https://img.shields.io/badge/React-1C2130?style=flat-square&logo=react&logoColor=61DAFB&labelColor=1C2130" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-1C2130?style=flat-square&logo=nextdotjs&logoColor=E6EAF2&labelColor=1C2130" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1C2130?style=flat-square&logo=typescript&logoColor=3178C6&labelColor=1C2130" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1C2130?style=flat-square&logo=javascript&logoColor=F7DF1E&labelColor=1C2130" />
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-1C2130?style=flat-square&logo=vite&logoColor=A970FF&labelColor=1C2130" />
 </p>
 
 <p>
   <samp><b>Data &amp; Tools</b></samp><br />
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-0D0F16?style=flat-square&logo=mysql&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-0D0F16?style=flat-square&logo=git&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Postman" src="https://img.shields.io/badge/Postman-0D0F16?style=flat-square&logo=postman&logoColor=9AA0AE&labelColor=0D0F16" />
-  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-0D0F16?style=flat-square&logo=streamlit&logoColor=9AA0AE&labelColor=0D0F16" />
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-1C2130?style=flat-square&logo=mysql&logoColor=4479A1&labelColor=1C2130" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-1C2130?style=flat-square&logo=git&logoColor=F05032&labelColor=1C2130" />
+  <img alt="Postman" src="https://img.shields.io/badge/Postman-1C2130?style=flat-square&logo=postman&logoColor=FF6C37&labelColor=1C2130" />
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-1C2130?style=flat-square&logo=streamlit&logoColor=FF4B4B&labelColor=1C2130" />
 </p>
 
 <img width="100%" alt="" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/rule-thin.svg" />
@@ -122,11 +122,11 @@ Kalau mau ngobrol, saya ada di [LinkedIn](https://www.linkedin.com/in/sonnyrilma
 
 ### <samp>04 &nbsp;·&nbsp; Aktivitas</samp>
 
-<p align="center">
-  <img height="150" alt="Statistik GitHub" src="https://github-readme-stats.vercel.app/api?username=SonnyRilman&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&icon_color=C7A55C&text_color=8B8F9C&ring_color=C7A55C" />
-  &nbsp;&nbsp;
-  <img height="150" alt="Bahasa teratas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SonnyRilman&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=00000000&text_color=8B8F9C" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-light.svg" />
+  <img width="100%" alt="Komposisi bahasa pada repositori publik" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg" />
+</picture>
 
 <p align="center">
   <img width="100%" alt="Grafik kontribusi" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/output/snake.svg" />
