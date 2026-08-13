@@ -91,9 +91,9 @@ Kalau mau ngobrol, saya ada di [LinkedIn](https://www.linkedin.com/in/sonnyrilma
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=25ddc636" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-light.svg?v=5979955b" />
-  <img width="100%" alt="Komposisi bahasa pada repositori publik" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=25ddc636" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=f15b9de3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-light.svg?v=d5f55501" />
+  <img width="100%" alt="Komposisi bahasa pada repositori publik" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=f15b9de3" />
 </picture>
 
 <p align="center">
