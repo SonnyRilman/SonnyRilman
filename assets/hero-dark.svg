@@ -62,7 +62,7 @@
   <text x="404" y="392" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="54" font-weight="bold" fill="#E6D4A8">B</text>
   <rect x="399" y="359" width="46" height="4" fill="#E6D4A8"/>
   <rect x="399" y="372" width="46" height="4" fill="#E6D4A8"/>
-  <text x="460" y="392" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="54" font-weight="bold" letter-spacing="2" fill="#E6D4A8">35.000.000</text>
+  <text x="460" y="392" font-family="Georgia, 'Times New Roman', 'Playfair Display', serif" font-size="54" font-weight="bold" letter-spacing="2" fill="#E6D4A8">34.000.000</text>
   <text x="404" y="430" font-family="ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace" font-size="13" letter-spacing="3.4" fill="#A28F68">LARAVEL &#183; REACT &#183; TYPESCRIPT &#183; FASTAPI</text>
 
   <g transform="rotate(-14 1032 398)" opacity="0.34">
