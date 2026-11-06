@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg?v=7c46b531" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-light.svg?v=6d4f5804" />
-  <img width="100%" alt="Poster buronan: Sonny Rilman, fullstack developer, bounty B35.000.000" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg?v=7c46b531" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg?v=bd931a56" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-light.svg?v=043c2560" />
+  <img width="100%" alt="Poster buronan: Sonny Rilman, fullstack developer, bounty B35.000.000" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/hero-dark.svg?v=bd931a56" />
 </picture>
 
 <p align="center">
@@ -91,9 +91,9 @@ Kalau mau ngobrol, saya ada di [LinkedIn](https://www.linkedin.com/in/sonnyrilma
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=10b5c480" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-light.svg?v=0d28d07c" />
-  <img width="100%" alt="Komposisi bahasa pada repositori publik" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=10b5c480" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=aa3f42fb" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-light.svg?v=a21f2a5a" />
+  <img width="100%" alt="Komposisi bahasa pada repositori publik" src="https://raw.githubusercontent.com/SonnyRilman/SonnyRilman/main/assets/stats-dark.svg?v=aa3f42fb" />
 </picture>
 
 <p align="center">
